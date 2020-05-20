@@ -16,13 +16,13 @@ h2 {
 
 h3 {
     color:orange;
-    
+
     text-decoration: overline underline;
     text-indent: 1.0em;
 }
 
-#movies {
-    background-image: url("/images/movie_reels.png");
+article#movies {
+    /*background-image: url("/images/movie_reels.png");*/
     color: orange;
 }
 
