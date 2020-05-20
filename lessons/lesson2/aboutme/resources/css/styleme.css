@@ -69,3 +69,11 @@ iframe {
 p::first-letter {
     font-size: 1.5em;
 }
+
+#movies dt {
+    color: #a3a097
+}
+
+#movies dd {
+    color: #7a766a
+}
