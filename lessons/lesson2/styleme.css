@@ -27,7 +27,12 @@ article#movies {
 }
 
 a{
-    color: yellowgreen
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #title{
