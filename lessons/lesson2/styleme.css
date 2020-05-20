@@ -22,7 +22,7 @@ h3 {
 }
 
 article#movies {
-    /*background-image: url("/images/movie_reels.png");*/
+    background-image: url("/images/movie_reels.png");
     color: orange;
 }
 
