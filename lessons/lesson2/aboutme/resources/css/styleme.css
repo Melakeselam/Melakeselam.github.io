@@ -64,7 +64,6 @@ a:hover, a:visited {
 iframe {
     width: 1280px;
     height: 720px;
-    margin-left: 20px;
 }
 
 p::first-letter {
