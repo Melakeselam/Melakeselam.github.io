@@ -43,3 +43,7 @@ a{
     font-size: 0.8em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#moods img {
+    height: 3vw;
+}
