@@ -28,10 +28,13 @@ article#movies {
 
 a{
     color: yellowgreen;
+}
+
+a:link{
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:visited {
     text-decoration: underline;
 }
 
