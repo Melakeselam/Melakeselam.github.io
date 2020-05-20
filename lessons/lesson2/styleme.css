@@ -22,7 +22,7 @@ h3 {
 }
 
 article#movies {
-    background-image: url("/images/movie_reels.png");
+    /*background-image: url("/images/movie_reels.png");*/
     color: orange;
 }
 
@@ -47,4 +47,8 @@ a{
 #moods img {
     width: 200px;
     height: 200px;
+}
+
+#neighbors ul {
+    list-style-type: square;
 }
