@@ -60,3 +60,8 @@ a:hover, a:visited {
 #neighbors ul {
     list-style-type: square;
 }
+
+iframe {
+    width: 200px;
+    height: 200px;
+}
