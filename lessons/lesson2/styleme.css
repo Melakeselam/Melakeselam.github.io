@@ -37,7 +37,7 @@ a{
     text-shadow: -3px 3px rgb(28, 28, 44);
 }
 
-.courses .code {
+.courseList .code {
     color: oldlace;
     font-style: italic;
     font-size: 0.8em;
@@ -45,5 +45,6 @@ a{
 }
 
 #moods img {
+    width: 200px;
     height: 200px;
 }
