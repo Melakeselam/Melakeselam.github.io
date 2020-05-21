@@ -25,6 +25,11 @@ body {
     background-attachment: fixed;
 }
 
+#piePicture {
+    width: 249;
+    height: 265;
+}
+
 a:link, a:visited, h1, h2 {
     color: #A4A400;
 }
