@@ -6,6 +6,10 @@ body {
     padding-left: 170px;
     padding-right: 170px;
     padding-top: 0%;
+    /*extra features*/
+    background-image: url("/lessons/lesson2/grannys_pies/resources/images/silverware.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h1, h2 {
