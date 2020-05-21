@@ -1,0 +1,52 @@
+body {
+    color: #404040;
+    background-color: white;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 0%;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+a:link, a:visited {
+    color: #A4A400;
+}
+
+pre {
+    font-family: monospace;
+    text-align: right;
+    padding-left: 0%;
+    margin-right: 750px;
+}
+
+span.majorStep {
+    font-weight: bold;
+}
+
+p.comments {
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0%;
+}
