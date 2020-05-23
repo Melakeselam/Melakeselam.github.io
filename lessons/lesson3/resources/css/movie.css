@@ -1,4 +1,15 @@
 
+/*
+Melakeselam Moges Mengistu (611124)
+CS472 Web Application Programming
+submission date: May 23, 2020
+
+Task: create a web page using html and css styling that mimics exactly
+a given movie critics page for TMNT (2007)
+
+parent html file: TMNT.html
+*/
+
 body {
     background-image: url("../images/background.png");
     background-repeat: repeat;
