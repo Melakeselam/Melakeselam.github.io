@@ -23,7 +23,6 @@ body {
 
 header, #content {
     position: relative;
-    border: 1px solid red;
 }
 
 
@@ -40,8 +39,6 @@ header, #content {
     width: 120px;
     margin-left: 20px;
     margin-top: 25px;
-    border: 1px dashed red;
-
 }
 
 header h1, header h2 {
@@ -49,7 +46,6 @@ header h1, header h2 {
     width: 800px;
     margin-left: 30px;    
     margin-bottom: 0px;
-    border: 1px solid purple;
 }
 
 header h1 {
@@ -83,7 +79,6 @@ header h2 {
     max-width: 20%;
     margin: 50px;
     margin-top: 70px;
-    border: 1px solid yellow;
 }
 
 
@@ -107,15 +102,12 @@ header h2 {
     margin: 50px;
     margin-top: 38px;
     margin-right: 80px;
-    border: 1px dashed red;
     overflow: hidden;
 }
 
 fieldset {
-
     padding: 13px;
     text-align: right;
-    border: 1px dashed darkgoldenrod;
 }
 
 #login_field {
@@ -169,7 +161,6 @@ label {
 #name_disp, .fields_box1, .fields_box2 {
     margin: 0px;
     text-align: right;
-    border: 1px dashed magenta;
     padding:7px;
 }
 
@@ -214,7 +205,6 @@ button:focus{
 
 .form_section {
     margin: 0px;
-    border: 1px solid pink;
     height: 450px;
     position: relative;
 }
@@ -224,12 +214,9 @@ button:focus{
     font-weight: normal;
     text-align: right;
     margin-right: 50px ;
-    border: 1px dashed yellowgreen;
-
 }
 
 #inner_logo {
-    border: 1px dashed orange;
     float: left;
 }
 
