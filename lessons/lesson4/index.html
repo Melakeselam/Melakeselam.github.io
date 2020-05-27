@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ShopRite Online Shopping Website</title>
         <link rel="icon" href="./resources/images/icon_large.png" type="image/x-icon" />
         <link rel="stylesheet" href="./resources/css/checkout.css" type="text/css" />
     </head>
@@ -36,7 +37,7 @@
                     <img src="./resources/images/shopping_cart_blue.png" alt="big logo" />
                 </div>
 
-                <form action="" method="POST" enctype="multipart/form-data" >
+                <form method="POST" enctype="multipart/form-data" >
 
                     <article id="login" class="form_section">
 
@@ -48,7 +49,7 @@
                             <label class="light_text input_field_set">PASSWORD:<em class ="required">*</em> <input type="password" name="password" required class="input_field"></label>
                         </fieldset>
                     
-                        <footer id="control_btns">
+                        <footer class="control_btns">
                             <button class="center_btn" type="reset">RESET</button>
                             <a href="#personal_details" class="right_btn">NEXT</a>
                         </footer>
@@ -59,8 +60,8 @@
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p id="username_lbl" class="light_text">User Name:</p>
-                            <p id="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl" class="light_text">User Name:</p>
+                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Personal Details</h1>
@@ -75,8 +76,8 @@
                             <label class="light_text input_field_set">Date of Birth:<em class ="required">*</em> <input type="date" name="dob" size=20 required class="input_field"></label>
                             <label class="light_text input_field_set">Nationality:<em class ="required">*</em> <input type="text" name="nationality" size=20 required class="input_field"></label><br>
                             <label class="light_text input_field_set">Telephone:<em class ="required">*</em> <input type="text" name="telephone" size=15 pattern="\(\d{3}\)\s?\d{3}\-?\d{4}" placeholder="(XXX) XXX-XXXX" class="input_field"></label>
-                            <label class="light_text input_field_set" for="id">ID:<em class ="required">*</em>
-                                <select name="id_type" class="input_field">
+                            <label class="light_text input_field_set" for="id_type">ID:<em class ="required">*</em>
+                                <select id="id_type" name="id_type" class="input_field">
                                     <option value="Driving Licence">Driving Licence</option>
                                     <option value="Social Security Number">Social Security Number</option>
                                     <option value="Passport">Passport</option>
@@ -86,7 +87,7 @@
                             
                         </fieldset>
                     
-                        <footer id="control_btns">
+                        <footer class="control_btns">
                             <a href="#login" class="left_btn"><span>PREV</span></a>
                             <button class="center_btn" type="reset">RESET</button>
                             <a href="#billing_address" class="right_btn">NEXT</a>
@@ -98,22 +99,22 @@
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p id="username_lbl" class="light_text">User Name:</p>
-                            <p id="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl" class="light_text">User Name:</p>
+                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Billing Address</h1>
 
-                        <div id="name_disp" >
-                            <label class="light_text input_field_set">Customer Name: 
-                                <input type="text" id="disp_first_name" size=12 value="John" readonly class="disp_field">
-                                <input type="text" id="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
-                                <input type="text" id="disp_last_name" size=12 value="Doe" readonly class="disp_field">
-                            </label>
+                        <div class="name_disp" >
+                            <span class="light_text input_field_set">Customer Name: </span>
+                                <input type="text" class="disp_first_name" size=12 value="John" readonly class="disp_field">
+                                <input type="text" class="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
+                                <input type="text" class="disp_last_name" size=12 value="Doe" readonly class="disp_field">
+
                         </div>
 
                         <div class="fields_box1">
-                            <label class="light_text input_field_set">Address Line 1:<em class ="required">*</em> <input type="test" name="address1" size=40 required class="input_field"></label>
+                            <label class="light_text input_field_set">Address Line 1:<em class ="required">*</em> <input type="text" name="address1" size=40 required class="input_field"></label>
                             <label class="light_text input_field_set">Address 2: <input type="text" name="address2" size=40 class="input_field"></label><br>
                         </div>
                         <div class="fields_box2">    
@@ -125,7 +126,7 @@
                         </div>
                         
 
-                        <footer id="control_btns">
+                        <footer class="control_btns">
                             <a href="#personal_details" class="left_btn">PREV</a>
                             <button class="center_btn" type="reset">RESET</button>
                             <a href="#shipping_address" class="right_btn">NEXT</a>
@@ -137,22 +138,21 @@
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p id="username_lbl" class="light_text">User Name:</p>
-                            <p id="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl" class="light_text">User Name:</p>
+                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Shipping Address</h1>
 
-                        <div id="name_disp" >
-                            <label class="light_text input_field_set">Customer Name: 
-                                <input type="text" id="disp_first_name" size=12 value="John" readonly class="disp_field">
-                                <input type="text" id="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
-                                <input type="text" id="disp_last_name" size=12 value="Doe" readonly class="disp_field">
-                            </label>
+                        <div class="name_disp" >
+                            <span class="light_text input_field_set">Customer Name: </span>
+                                <input type="text" class="disp_first_name" size=12 value="John" readonly class="disp_field">
+                                <input type="text" class="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
+                                <input type="text" class="disp_last_name" size=12 value="Doe" readonly class="disp_field">
                         </div>
 
                         <div class="fields_box1">
-                            <label class="light_text input_field_set">Address Line 1:<em class ="required">*</em> <input type="test" name="address1" size=40 required class="input_field"></label>
+                            <label class="light_text input_field_set">Address Line 1:<em class ="required">*</em> <input type="text" name="address1" size=40 required class="input_field"></label>
                             <label class="light_text input_field_set">Address 2: <input type="text" name="address2" size=40 class="input_field"></label><br>
                         </div>
                         <div class="fields_box2">    
@@ -162,7 +162,7 @@
                             <label class="light_text input_field_set">Zip/Postal:<em class ="required">*</em> <input type="text" name="zip_postal" size=15  pattern="(\d{3}\-\d{2}\-\d{4})?" class="input_field"></label>
                         </div>
 
-                        <footer id="control_btns">
+                        <footer class="control_btns">
                             <a href="#billing_address" class="left_btn">PREV</a>
                             <button class="center_btn" type="reset">RESET</button>
                             <a href="#payment_info" class="right_btn">NEXT</a>
@@ -174,18 +174,17 @@
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p id="username_lbl" class="light_text">User Name:</p>
-                            <p id="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl" class="light_text">User Name:</p>
+                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Payment Information</h1>
 
-                        <div id="name_disp" >
-                            <label class="light_text input_field_set">Customer Name: 
-                                <input type="text" id="disp_first_name" size=12 value="John" readonly class="disp_field">
-                                <input type="text" id="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
-                                <input type="text" id="disp_last_name" size=12 value="Doe" readonly class="disp_field">
-                            </label>
+                        <div class="name_disp" >
+                            <span class="light_text input_field_set">Customer Name: </span>
+                                <input type="text" class="disp_first_name" size=12 value="John" readonly class="disp_field">
+                                <input type="text" class="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
+                                <input type="text" class="disp_last_name" size=12 value="Doe" readonly class="disp_field">
                         </div>
 
                         <div class="fields_box1">
@@ -209,7 +208,7 @@
                             <input type="radio" name="save_card" value="no" />No
                         </fieldset>
 
-                        <footer id="control_btns">
+                        <footer class="control_btns">
                             <a href="#billing_address" class="left_btn">PREV</a>
                             <button class="center_btn" type="reset">RESET</button>
                             <a href="#checkout" class="right_btn">NEXT</a>
@@ -221,23 +220,22 @@
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p id="username_lbl" class="light_text">User Name:</p>
-                            <p id="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl" class="light_text">User Name:</p>
+                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Checkout</h1>
 
-                        <div id="name_disp" >
-                            <label class="light_text input_field_set">Customer Name: 
-                                <input type="text" id="disp_first_name" size=12 value="John" readonly class="disp_field">
-                                <input type="text" id="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
-                                <input type="text" id="disp_last_name" size=12 value="Doe" readonly class="disp_field">
-                            </label>
+                        <div class="name_disp" >
+                            <span class="light_text input_field_set">Customer Name: </span>
+                                <input type="text" class="disp_first_name" size=12 value="John" readonly class="disp_field">
+                                <input type="text" class="disp_middle_name" size=12 value="Marcus" readonly class="disp_field" >
+                                <input type="text" class="disp_last_name" size=12 value="Doe" readonly class="disp_field">
                         </div>
 
                         <div class="fields_box1">
                             <label class="light_text input_field_set">Pay with: 
-                                <input type="text" id="disp_payment_mode" readonly value="Credit/Debit Card"class="disp_field" />
+                                <input type="text" id="disp_payment_mode" readonly value="Credit/Debit Card" class="disp_field" />
                             </label><br>
                             <label class="light_text input_field_set">Card/Check# or PayPal Id:  <input type="text" id="disp_card_id_num" size=20 readonly value="1234567890" class="disp_field"></label><br>
                         </div>
@@ -257,7 +255,7 @@
                             <input type="checkbox" name="terms_cond" value="yes" />Accept
                         </fieldset>
 
-                        <footer id="control_btns">
+                        <footer class="control_btns">
                             <a href="#payment_info" class="left_btn">PREV</a>
                             <button class="center_btn" type="reset">RESET</button>
                             <button class="right_btn" type="submit">SUBMIT</button>
