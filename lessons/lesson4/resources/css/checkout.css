@@ -62,7 +62,7 @@ header h2 {
     font-weight: normal;
 }
 
-#main::before article{
+#main::before {
     content: "";
     clear: both;
     display: table;
@@ -197,7 +197,7 @@ label {
     font-size: 1.2em;
 }
 
-.control_btns a {
+.control_buttons a {
     display: block;
     color: rgb(250, 250, 250);
     
@@ -207,7 +207,7 @@ a[class="right_btn"], a[class="left_btn"] {
     padding-top: 10px;
 }
 
-.control_btns a:link{
+.control_buttons a:link{
     text-decoration: none;
 }
 
@@ -274,17 +274,13 @@ button:focus{
     padding: 13px;
 }
 
-.control_btns {
+.control_buttons {
     position: absolute;
     width: 265px;
     height: 45px;
-    padding: auto;
     bottom: 16px;
     right: 20px;
-    /*border: 1px dashed maroon;*/
-    
 }
-
 
 .left_btn {
     background-color: rgb(89, 89, 89);
