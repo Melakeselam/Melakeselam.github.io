@@ -21,7 +21,7 @@
             <h2 class="blue_text">Online Shopping Center - Checkout Information</h2>
         </header>
 
-        <section id="main">
+        <div id="main">
             <nav id="menu">
                 <ul class="blue_text">
                     <li><a href="#personal_details">Personal Details</a></li>
@@ -31,7 +31,7 @@
                     <li><a href="#checkout">Checkout</a></li>
                 </ul>
             </nav>
-            <section id="view">
+            <div id="view">
 
                 <div id="inner_logo">
                     <img src="./resources/images/shopping_cart_blue.png" alt="big logo" />
@@ -39,7 +39,7 @@
 
                 <form method="POST" enctype="multipart/form-data" >
 
-                    <article id="login" class="form_section">
+                    <div id="login" class="form_div">
 
                         <h1 class="dark_blue_text">Login</h1>
 
@@ -54,14 +54,14 @@
                             <a href="#personal_details" class="right_btn">NEXT</a>
                         </footer>
 
-                    </article>
+                    </div>
 
-                    <article id="personal_details" class="form_section">
+                    <div id="personal_details" class="form_div">
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p class="username_lbl" class="light_text">User Name:</p>
-                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl light_text">User Name:</p>
+                            <p class="username_disp dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Personal Details</h1>
@@ -93,14 +93,14 @@
                             <a href="#billing_address" class="right_btn">NEXT</a>
                         </footer>
 
-                    </article>
+                    </div>
 
-                    <article id="billing_address" class="form_section">
+                    <div id="billing_address" class="form_div">
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p class="username_lbl" class="light_text">User Name:</p>
-                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl light_text">User Name:</p>
+                            <p class="username_disp dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Billing Address</h1>
@@ -132,14 +132,14 @@
                             <a href="#shipping_address" class="right_btn">NEXT</a>
                         </footer>
                     
-                    </article>
+                    </div>
 
-                    <article id="shipping_address" class="form_section">
+                    <div id="shipping_address" class="form_div">
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p class="username_lbl" class="light_text">User Name:</p>
-                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl light_text">User Name:</p>
+                            <p class="username_disp dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Shipping Address</h1>
@@ -168,14 +168,14 @@
                             <a href="#payment_info" class="right_btn">NEXT</a>
                         </footer>
                     
-                    </article>
+                    </div>
 
-                    <article id="payment_info" class="form_section">
+                    <div id="payment_info" class="form_div">
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p class="username_lbl" class="light_text">User Name:</p>
-                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl light_text">User Name:</p>
+                            <p class="username_disp dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Payment Information</h1>
@@ -200,7 +200,7 @@
                         <div class="fields_box2">    
                             <label class="light_text input_field_set">Name on Card:<em class ="required">*</em> <input type="text" name="name_on_card" size=15  class="input_field"></label>
                             <label class="light_text input_field_set">Security Code:<em class ="required">*</em> <input type="text" name="security_code" size=15 pattern="\d{3}" class="input_field"></label>
-                            <label class="light_text input_field_set">Expiration Date:<em class ="required">*</em> <input type="date" name="exp_date1" size=15  class="input_field">  /  <input type="date" name="exp_date2" size=15  class="input_field"></label>
+                            <label class="light_text input_field_set">Expiration Date:<em class ="required">*</em> <input type="date" name="exp_date1" size=15  class="input_field"></label>  /  <input type="date" name="exp_date2" size=15  class="input_field">
                         </div>
                         <fieldset id="save_card">
                             <legend>Save this card?:<em class ="required">*</em></legend>
@@ -214,14 +214,14 @@
                             <a href="#checkout" class="right_btn">NEXT</a>
                         </footer>
                     
-                    </article>
+                    </div>
 
-                    <article id="checkout" class="form_section">
+                    <div id="checkout" class="form_div">
 
                         <div class="cust_img">
                             <img src="./resources/images/placeholder-profile-pic.png" alt="customer pic" />
-                            <p class="username_lbl" class="light_text">User Name:</p>
-                            <p class="username_disp" class="dark_blue_text">JOHNDOE123</p>
+                            <p class="username_lbl light_text">User Name:</p>
+                            <p class="username_disp dark_blue_text">JOHNDOE123</p>
                         </div>
 
                         <h1 class="dark_blue_text">Checkout</h1>
@@ -261,13 +261,13 @@
                             <button class="right_btn" type="submit">SUBMIT</button>
                         </footer>
                     
-                    </article>
+                    </div>
                     
                 </form>
                 
-            </section>
+            </div>
             
-        </section>
+        </div>
 
     </div>
     <div id="validators">
