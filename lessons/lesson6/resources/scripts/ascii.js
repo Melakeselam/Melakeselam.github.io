@@ -522,11 +522,27 @@ ANIMATIONS["aliVsForman"] = "ALI\n" +
 "=====\n" +
 "ROUND\n" +
 "=====\n" +
-"ROUND 1!\n" +
+"ROUN D\n" +
+"=====\n" +
+"ROUND\n" +
+"=====\n" +
+"ROUN D\n" +
+"=====\n" +
+"ROUND\n" +
+"=====\n" +
+"ROUND 1\n" +
 "=====\n" +
 "ROUND 1!\n" +
 "=====\n" +
+"ROUND 1 !\n" +
+"=====\n" +
 "ROUND 1!\n" +
+"=====\n" +
+"ROUND 1 !\n" +
+"=====\n" +
+"ROUND 1!\n" +
+"=====\n" +
+"ROUND 1 !\n" +
 "=====\n" +
 "ROUND 1!\n" +
 "=====\n" +
@@ -557,7 +573,7 @@ ANIMATIONS["aliVsForman"] = "ALI\n" +
 "=====\n" +
 "     O  oo O\n" +
 "    '+-o \\\\|\n" +
-"    o|\\    /\\\  \n" +
+"    o|\\    /\\  \n" +
 "     //_ _|  \\  \n" +
 "=====\n" +
 "        O   **\\ O/ * AAHHHHH!\n" +
@@ -640,8 +656,8 @@ ANIMATIONS["aliVsForman"] = "ALI\n" +
 "        ||            \n" +
 "       _||_       *      \n" +
 "=====\n" +
-"       \ O/  -_ YAAA     \n" +
-"        \/           *\n" +
+"       \\ O/  -_ YAAA     \n" +
+"        \\/           *\n" +
 "        ||            \n" +
 "       _||_       *    \n" +  
 "=====\n" +
@@ -656,7 +672,7 @@ ANIMATIONS["aliVsForman"] = "ALI\n" +
 "       _||_       *  \n" +
 "=====\n" +
 "       \\ O/  -_ YAAAaaaHHH! *    \n" +
-"        \/           *\n" +
+"        \\/           *\n" +
 "        ||            \n" +
 "       _||_\n" +
 "=====\n" +
