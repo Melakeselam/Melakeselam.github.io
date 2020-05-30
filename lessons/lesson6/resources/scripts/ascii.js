@@ -119,6 +119,50 @@ function loadFunctions(){
         playStop.click();
         playStart.click();
     }
+
+    animeWin.onmouseover = function(){
+        
+        if(animeSelector.value == "aliVsForman"){
+            const doubleClickMe = document.createElement("input");
+            doubleClickMe.type = "text";
+            doubleClickMe.id = "doubleClickMe";
+            doubleClickMe.value = "DOUBLE CLICK ME";
+            // doubleClickMe.style.display = "inline-block";
+            doubleClickMe.style.position = "fixed";
+            doubleClickMe.style.top ="400px";
+            doubleClickMe.style.color = "maroon";
+            doubleClickMe.style.fontSize = "3vw";
+            doubleClickMe.style.opacity = 0.5;
+            doubleClickMe.style.width = "30vw";
+            doubleClickMe.style.textAlign = "center";
+            doubleClickMe.style.borderWidth ="0px";
+            doubleClickMe.style.left = "5.5vw";
+            const minLeft = 5; //18.5vw
+            const maxLeft = 95-30.5; //76.5vw 
+            let moveVector = 0.2; //vw
+            document.body.appendChild(doubleClickMe);
+            let looper = setInterval(function(){
+                if((parseFloat(doubleClickMe.style.left) >= maxLeft)||(parseFloat(doubleClickMe.style.left) <= minLeft)){
+                    moveVector = moveVector * -1;
+                } 
+                doubleClickMe.style.left = (parseFloat(doubleClickMe.style.left)+moveVector)+"vw";
+            },20)
+        }
+    }
+
+    animeWin.onmouseout = function() {
+        const doubleClickMe = document.getElementById("doubleClickMe");
+        if(doubleClickMe){
+            doubleClickMe.remove();
+        }
+    }
+    animeWin.ondblclick=function(){
+        
+
+        if(animeSelector.value == "aliVsForman"){
+            window.open( "https://www.youtube.com/watch?v=55AasOJZzDE");
+        }
+    }
     
 
 }
@@ -524,31 +568,27 @@ ANIMATIONS["aliVsForman"] = "ALI\n" +
 "=====\n" +
 "ROUND\n" +
 "=====\n" +
-"ROUND 1!\n" +
+"ROUND 8!\n" +
 "=====\n" +
-"ROUND1  !\n" +
+"ROUND8  !\n" +
 "=====\n" +
-"ROUND 1!\n" +
+"ROUND 8!\n" +
 "=====\n" +
-"ROUND1  !\n" +
+"ROUND8  !\n" +
 "=====\n" +
-"ROUND 1!\n" +
+"ROUND 8!\n" +
 "=====\n" +
-"ROUND1  !\n" +
+"ROUND8  !\n" +
 "=====\n" +
-"ROUND 1!\n" +
+"ROUND 8!\n" +
 "=====\n" +
-"ROUND1  !\n" +
+"ROUND8  !\n" +
 "=====\n" +
-"ROUND 1!\n" +
+"ROUND 8!\n" +
 "=====\n" +
-"ROUND1  !\n" +
+"ROUND8  !\n" +
 "=====\n" +
-"ROUND 1!\n" +
-"=====\n" +
-"ROUND1  !\n" +
-"=====\n" +
-"ROUND 1!\n" +
+"ROUND 8!\n" +
 "=====\n" +
 " O             O\n" +
 "/|`-o       ^--+\\\n" +
