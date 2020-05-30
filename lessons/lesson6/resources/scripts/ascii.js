@@ -522,27 +522,31 @@ ANIMATIONS["aliVsForman"] = "ALI\n" +
 "=====\n" +
 "ROUND\n" +
 "=====\n" +
-"ROUN D\n" +
-"=====\n" +
 "ROUND\n" +
 "=====\n" +
-"ROUN D\n" +
+"ROUND 1!\n" +
 "=====\n" +
-"ROUND\n" +
-"=====\n" +
-"ROUND 1\n" +
+"ROUND1  !\n" +
 "=====\n" +
 "ROUND 1!\n" +
 "=====\n" +
-"ROUND 1 !\n" +
+"ROUND1  !\n" +
 "=====\n" +
 "ROUND 1!\n" +
 "=====\n" +
-"ROUND 1 !\n" +
+"ROUND1  !\n" +
 "=====\n" +
 "ROUND 1!\n" +
 "=====\n" +
-"ROUND 1 !\n" +
+"ROUND1  !\n" +
+"=====\n" +
+"ROUND 1!\n" +
+"=====\n" +
+"ROUND1  !\n" +
+"=====\n" +
+"ROUND 1!\n" +
+"=====\n" +
+"ROUND1  !\n" +
 "=====\n" +
 "ROUND 1!\n" +
 "=====\n" +
