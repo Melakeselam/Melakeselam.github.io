@@ -10,6 +10,7 @@ associated css file: accountGen.css
 
 
     loader = function() {
+
         const acctName = document.getElementById("accountName");
         const deposit = document.getElementById("deposit");
         const createAcc = document.getElementById("createAcc");
@@ -60,6 +61,7 @@ associated css file: accountGen.css
             acctName.value = "";
             deposit.value = ""; 
             acctName.focus();    
-        }
-    }
+        };
+    };
+    
     window.onload = loader;
