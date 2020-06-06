@@ -56,7 +56,7 @@ label {
 fieldset {
     display: inline-block;
     position: relative;
-    width: 25vw;
+    width: auto;
     height: 100px;
     padding: 20px;
     margin:20px;
