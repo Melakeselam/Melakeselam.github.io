@@ -1,8 +1,8 @@
 "use strict";
 
 $(function() {
-	$('#hw').change(function() {
-		var file = 'homeworks/'+$('#hw').val();
+	$('#lab').change(function() {
+		var file = 'lessons/'+$('#lab').val();
 		$.ajax({
 			'url': file,
 			'type': 'GET',
@@ -19,5 +19,3 @@ function ajaxSuccess(data) {
 function ajaxFailure(xhr, status, exception) {
   console.log(xhr, status, exception);
 }
-
-$.get('https://www.google.com/images/branding/product/ico/googleg_lodp.ico');
