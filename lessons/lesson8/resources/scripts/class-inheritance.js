@@ -89,11 +89,11 @@ associated css files:
     
             switch(bike){
                 case regBike:
-                    imgLoc = "/resources/images/regBike/";
+                    imgLoc = "/lessons/lesson8/resources/images/regBike/";
                     bikeType = "regBike";
                     break;
                 case mntnBike:
-                    imgLoc ="/resources/images/mntnBike/";
+                    imgLoc ="/lessons/lesson8/resources/images/mntnBike/";
                     bikeType = "mntnBike";
                     break;
                 default: return;
