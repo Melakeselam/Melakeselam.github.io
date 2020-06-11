@@ -1,6 +1,6 @@
 $(function(){
 
-    const url = "http://jsonplaceholder.typicode.com";
+    const url = "https://jsonplaceholder.typicode.com";
     const getUserUrlRoot = url + "/users/";
     const getPostsUrlRoot = url + "/posts?userId=";
     const getCommentsUrlRoot = url + "/comments?postId="; 
